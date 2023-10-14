@@ -32,11 +32,11 @@ img {
 }
 .title_main {
 	font-size: 32px;
-	text-align: center;
+/*	text-align: center;*/
 }
 .title_text {
 	font-size: 20px;
-	text-align: center;
+/*	text-align: center;*/
 }
 
 #interesting {
@@ -45,7 +45,6 @@ img {
 
 #info_block {
 	margin-bottom: 45px;
-	
 }
 
 #text_info_block {
@@ -69,7 +68,7 @@ img {
 .footer_info {
 	color: #fff;
 	font-size: 16px;
-	text-align: center;
+/*	text-align: center;*/
 	padding: 50px 0 94px;
 	width: 148px;
 	margin: 0 auto;
@@ -180,5 +179,14 @@ img {
 }
 
 #carousel {
-	padding-top: 150px;
+	padding-top: 125px;
+}
+
+.card-link {
+	text-decoration: none;
+}
+
+#svg {
+	width: 100px; 
+	height: 100px;
 }
