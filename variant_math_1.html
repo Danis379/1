@@ -158,7 +158,7 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
-				    <input class="form-control me-2" type="search" id="answer_1" placeholder="" aria-label="Поиск">
+				    <input class="form-control me-2" type="text" id="answer_1" placeholder="" aria-label="Поиск">
 				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
@@ -943,189 +943,43 @@
 	
 	<script>
 		function verification(){
+
+			let true_answers = [];
+
 			// Правильные ответы
-			true_answer_1 = '132'; 
-			true_answer_2 = '15,4';
-			true_answer_3 = '20700';
-			true_answer_4 = '17550';
-			true_answer_5 = '75';
-			true_answer_6 = '13';
-			true_answer_7 = '4';
-			true_answer_8 = '220';
-			true_answer_9 = '-1';
-			true_answer_10 = '0,2';
-			true_answer_11 = '132';
-			true_answer_12 = '26500';
-			true_answer_13 = '3';
-			true_answer_14 = '8';
-			true_answer_15 = '28';
-			true_answer_16 = '36';
-			true_answer_17 = '27';
-			true_answer_18 = '1';
-			true_answer_19 = '23';
+			true_answers[0] = '132'; 
+			true_answers[1] = '15,4';
+			true_answers[2] = '20700';
+			true_answers[3] = '17550';	  
+			true_answers[4] = '75';
+			true_answers[5] = '13';  
+			true_answers[6] = '4';  
+			true_answers[7] = '220';  
+			true_answers[8] = '-1';  
+			true_answers[9] = '0,2';  
+			true_answers[10] = '132';  
+			true_answers[11] = '26500';  
+			true_answers[12] = '3';  
+			true_answers[13] = '8';  
+			true_answers[14] = '28';   
+			true_answers[15] = '36';  
+			true_answers[16] = '27';  
+			true_answers[17] = '1';  
+			true_answers[18] = '23';  
 
 			// Счетчик баллов
-			ball = 0;
+			let ball = 0;
 
-			for (let i = 1; i 19; i++) {
-			  	if(document.getElementById('answer_'+i).value == true_answer_${i}) {
-					ball+=1;
-					document.getElementById('answer_'+i).style.backgroundColor = '#bbdfb3';
-				} else{
-					document.getElementById('answer_'+i).style.backgroundColor = '#ff9999';
+			for (let i = 1; i <= 18; i++) {
+			  	if(document.getElementById('answer_' + i).value == true_answers[i-1]) {
+					ball += 1;
+					document.getElementById('answer_'+ i).style.backgroundColor = '#bbdfb3';
+				} 
+				else {
+					document.getElementById('answer_'+ i).style.backgroundColor = '#ff9999';
 				}
 			}
-			// // Проверка задания 1
-			// if(document.getElementById('answer_1').value == true_answer_1){
-			// 	ball+=1;
-			// 	document.getElementById('answer_1').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_1').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 2
-			// if(document.getElementById('answer_2').value == true_answer_2){
-			// 	ball+=1;
-			// 	document.getElementById('answer_2').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_2').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 3
-			// if(document.getElementById('answer_3').value == true_answer_3){
-			// 	ball+=1;
-			// 	document.getElementById('answer_3').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_3').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 4
-			// if(document.getElementById('answer_4').value == true_answer_4){
-			// 	ball+=1;
-			// 	document.getElementById('answer_4').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_4').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 5
-			// if(document.getElementById('answer_5').value == true_answer_5){
-			// 	ball+=1;
-			// 	document.getElementById('answer_5').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_5').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 6
-			// if(document.getElementById('answer_6').value == true_answer_6){
-			// 	ball+=1;
-			// 	document.getElementById('answer_6').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_6').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 7
-			// if(document.getElementById('answer_7').value == true_answer_7){
-			// 	ball+=1;
-			// 	document.getElementById('answer_7').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_7').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 8
-			// if(document.getElementById('answer_8').value == true_answer_8){
-			// 	ball+=1;
-			// 	document.getElementById('answer_8').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_8').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 9
-			// if(document.getElementById('answer_9').value == true_answer_9){
-			// 	ball+=1;
-			// 	document.getElementById('answer_9').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_9').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 10
-			// if(document.getElementById('answer_10').value == true_answer_10){
-			// 	ball+=1;
-			// 	document.getElementById('answer_10').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_10').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 11
-			// if(document.getElementById('answer_11').value == true_answer_11){
-			// 	ball+=1;
-			// 	document.getElementById('answer_11').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_11').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 12
-			// if(document.getElementById('answer_12').value == true_answer_12){
-			// 	ball+=1;
-			// 	document.getElementById('answer_12').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_12').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 13
-			// if(document.getElementById('answer_13').value == true_answer_13){
-			// 	ball+=1;
-			// 	document.getElementById('answer_13').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_13').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 14
-			// if(document.getElementById('answer_14').value == true_answer_14){
-			// 	ball+=1;
-			// 	document.getElementById('answer_14').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_14').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 15
-			// if(document.getElementById('answer_15').value == true_answer_15){
-			// 	ball+=1;
-			// 	document.getElementById('answer_15').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_15').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 16
-			// if(document.getElementById('answer_16').value == true_answer_16){
-			// 	ball+=1;
-			// 	document.getElementById('answer_16').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_16').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 17
-			// if(document.getElementById('answer_17').value == true_answer_17){
-			// 	ball+=1;
-			// 	document.getElementById('answer_17').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_17').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 18
-			// if(document.getElementById('answer_18').value == true_answer_18){
-			// 	ball+=1;
-			// 	document.getElementById('answer_18').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_18').style.backgroundColor = '#ff9999';
-			// }
-
-			// // Проверка задания 19
-			// if(document.getElementById('answer_19').value == true_answer_19){
-			// 	ball+=1;
-			// 	document.getElementById('answer_19').style.backgroundColor = '#bbdfb3';
-			// } else{
-			// 	document.getElementById('answer_19').style.backgroundColor = '#ff9999';
-			// }
+			
 		}
 	</script>
 </body>
