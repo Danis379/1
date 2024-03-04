@@ -82,8 +82,7 @@
 	      		</div>
 	    	</div>
 	  	</div>
-	</nav>
-
+	</nav>	
 	<form class="d-flex">
 	   <input class="form-control me-5" type="search" placeholder="Поиск по сайту" aria-label="Поиск">
 	   <button class="btn btn-outline-secondary" type="submit">Поиск</button>
@@ -153,13 +152,20 @@
   				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
 			  	</div>
 			</div>
-
 		</div>
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
-				    <input class="form-control me-2" type="text" id="answer_1" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
+				    <button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution1" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution1">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
+				    <input class="form-control" type="text" id="answer_1" placeholder="" aria-label="Поиск">
 				</form>
 			</div>
 		</div>
@@ -180,37 +186,37 @@
 			<div class="collapse" id="collapseExample2">
 			  	<div class="card card-body">
 			    	<p>Хозяин дачного участка строит баню с парным отделением. Парное отделение имеет размеры: длина 3,5м, ширина 2,2м, высота 2м. Окон в парном отделении нет, для доступа внутрь планируется дверь шириной 60см, высота дверного проема 1,8м. Для прогрева парного отделения можно использовать электрическую или дровяную печь. В таблице представлены характеристики трех печей.</p>
-  				<table class="my-5">
-					<tr>
-						<td class="second_cells	">Номер печи</td>
-						<td class="second_cells">Тип</td>
-						<td class="second_cells">Объем помещения</td>
-						<td class="second_cells">Масса</td>
-						<td class="second_cells">Стоимость</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">1</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">8-12</td>
-						<td class="second_cells">40</td>
-						<td class="second_cells">18 000</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">2</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">10-16</td>
-						<td class="second_cells">48</td>
-						<td class="second_cells">19 500</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">3</td>
-						<td class="second_cells">Электрическая</td>
-						<td class="second_cells">9-15,5</td>
-						<td class="second_cells">15</td>
-						<td class="second_cells">15 000</td>
-					</tr>
-				</table>	
-  				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
+	  				<table class="my-5">
+						<tr>
+							<td class="second_cells	">Номер печи</td>
+							<td class="second_cells">Тип</td>
+							<td class="second_cells">Объем помещения</td>
+							<td class="second_cells">Масса</td>
+							<td class="second_cells">Стоимость</td>
+						</tr>
+						<tr>
+							<td class="second_cells	">1</td>
+							<td class="second_cells">Дровяная</td>
+							<td class="second_cells">8-12</td>
+							<td class="second_cells">40</td>
+							<td class="second_cells">18 000</td>
+						</tr>
+						<tr>
+							<td class="second_cells	">2</td>
+							<td class="second_cells">Дровяная</td>
+							<td class="second_cells">10-16</td>
+							<td class="second_cells">48</td>
+							<td class="second_cells">19 500</td>
+						</tr>
+						<tr>
+							<td class="second_cells	">3</td>
+							<td class="second_cells">Электрическая</td>
+							<td class="second_cells">9-15,5</td>
+							<td class="second_cells">15</td>
+							<td class="second_cells">15 000</td>
+						</tr>
+					</table>	
+	  				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
 			  	</div>
 			</div>
 
@@ -218,8 +224,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution2" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution2">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Объем парного отделения может быть вычислен по формуле: V=a·b·c где a - ширина, b - длина, с - высота. Имеем: V= 3,5 · 2,2 · 2 = 15,4 m³</p>
+					  			<p>Ответ: 15,4.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_2" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -278,8 +292,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution3" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution3">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Вычислим стоимость электрической печи: 15 000 + 800 + 6500 = 22 300 рублей.</p>
+					  			<p>Ответ: 22300.</p>
+					  		</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_3" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -338,8 +360,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution4" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution4">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Вычислим сколько стала стоить печь массой 48 кг: 19500 − 19500 · 0,1 = 19500 − 1950  = 17 550.</p>
+					  			<p>Ответ: 17 550.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_4" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -400,8 +430,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution5" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution5">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Проведем радиус как показано на рисунке. Тогда AC = 30, так как точка С середина по условию. Тогда имеем треугольник ABC прямоугольный. По теореме Пифагора найдем радиус BC = √(40² + 30²) = 50.</p>
+					  			<p>Ответ: 50.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_5" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -418,8 +456,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution6" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution6">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Вычислим: 5/6 - 3/14 = 35/42 - 9/42 = 26/42 = 13/21</p>
+					  			<p>Ответ: 13.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_6" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -438,8 +484,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution7" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution7">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Заметим, что -0,02 < 0,09 < 0,098 < 0,11. Следовательно, числу 0,09 соответствует вторая слева точка то есть точка B.</p>
+					  			<p>Ответ: 2.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_7" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -449,15 +503,23 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 8 </h4>Найдите значение выражения 5√11*2√2*√22</p>
+				<p class="my-3"><h4>Задание 8 </h4>Найдите значение выражения 5√11 · 2√2 · √22</p>
 			</div>
 			
 		</div>
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution8" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution8">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Вычислим: (√18 + √2) · √2 = √36 + √4 = 6 + 2 = 8</p>
+					  			<p>Ответ: 8.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_8" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -467,15 +529,23 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 9 </h4>Решите уравнение 3x+5+(x+5)=(1-x)+4</p>
+				<p class="my-3"><h4>Задание 9 </h4>Решите уравнение 3x + 5 + (x+5) = (1-x) + 4</p>
 			</div>
 			
 		</div>
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution9" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution9">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Решим уравнение: x² - 49 = 0 <=> x² = 49 <=> x = 7; x = -7.</p>
+					  			<p>Ответ: 7.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_9" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -492,8 +562,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution10" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution10">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_10" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -510,13 +588,13 @@
 					<p>ФУНКЦИИ:</p>
 				</div>
 				<div class="col-2">
-					<p>A)y=2x+6</p>
+					<p>A) y = 2x + 6</p>
 				</div>
 				<div class="col-2">
-					<p>B)y=-2x-6</p>
+					<p>B) y = -2x - 6</p>
 				</div>
 				<div class="col-2">
-					<p>C)y=-2x+6</p>
+					<p>C) y = -2x + 6</p>
 				</div>
 			</div>
 			<div class="row">
@@ -540,8 +618,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution11" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution11">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_11" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -551,15 +637,23 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 12 </h4>В фирме «Родник» стоимость (в рублях) колодца из железобетонных колец рассчитывается по формуле С = 6000 + 4100*n, где n — число колец, установленных при рытье колодца. Пользуясь этой формулой, рассчитайте стоимость колодца из 5 колец.</p>
+				<p class="my-3"><h4>Задание 12 </h4>В фирме «Родник» стоимость (в рублях) колодца из железобетонных колец рассчитывается по формуле С = 6000 + 4100·n, где n — число колец, установленных при рытье колодца. Пользуясь этой формулой, рассчитайте стоимость колодца из 5 колец.</p>
 			</div>
 			
 		</div>
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution12" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution12">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_12" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -604,8 +698,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution13" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution13">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_13" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -622,8 +724,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution145" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution145">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_14" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -642,8 +752,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution15" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution15">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_15" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -662,8 +780,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution16" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution16">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_16" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -680,8 +806,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution17" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution17">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_17" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -700,8 +834,16 @@
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution18" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution18">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_18" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -712,17 +854,25 @@
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
 				<p class="my-3"><h4>Задание 19 </h4>Какие из следующих утверждений верны? (Если утверждений несколько, запишите их номера в порядке возрастания)</p>
-				<p>1)Если две стороны одного треугольника соответственно равны двум сторонам другого треугольника, то такие треугольники равны.</p>
-				<p>2)Средняя линия трапеции параллельна ее основаниям.</p>
-				<p>3)Длина гипотенузы прямоугольного треугольника меньше суммы длин его катетов.</p>
+				<p>1) Если две стороны одного треугольника соответственно равны двум сторонам другого треугольника, то такие треугольники равны.</p>
+				<p>2) Средняя линия трапеции параллельна ее основаниям.</p>
+				<p>3) Длина гипотенузы прямоугольного треугольника меньше суммы длин его катетов.</p>
 			</div>
 			
 		</div>
 		<div class="row mt-3">
 			<div class="col">
 				<form class="d-flex">
+					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution19" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
+					<div class="collapse" id="solution19">
+					  	<div class="card card-body">
+					  		<div style="width: 60rem;">
+						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
+					  			<p>Ответ: 132.</p>
+						  	</div>
+						</div>
+					</div>
 				    <input class="form-control me-2" type="search" id="answer_19" placeholder="" aria-label="Поиск">
-				    <button class="btn btn-outline-secondary" type="submit">Ответить</button>
 				</form>
 			</div>
 		</div>
@@ -941,37 +1091,40 @@
 		</div>
 	</footer>
 	
+
+
+	<!-- JavaScript  -->
 	<script>
 		function verification(){
 
 			let true_answers = [];
 
 			// Правильные ответы
-			true_answers[0] = '132'; 
-			true_answers[1] = '15,4';
-			true_answers[2] = '20700';
-			true_answers[3] = '17550';	  
-			true_answers[4] = '75';
-			true_answers[5] = '13';  
-			true_answers[6] = '4';  
-			true_answers[7] = '220';  
-			true_answers[8] = '-1';  
-			true_answers[9] = '0,2';  
-			true_answers[10] = '132';  
-			true_answers[11] = '26500';  
-			true_answers[12] = '3';  
-			true_answers[13] = '8';  
-			true_answers[14] = '28';   
-			true_answers[15] = '36';  
-			true_answers[16] = '27';  
-			true_answers[17] = '1';  
-			true_answers[18] = '23';  
+			true_answers[1] = '132'; 
+			true_answers[2] = '15,4';
+			true_answers[3] = '20700';
+			true_answers[4] = '17550';	  
+			true_answers[5] = '75';
+			true_answers[6] = '13';  
+			true_answers[7] = '4';  
+			true_answers[8] = '220';  
+			true_answers[9] = '-1';  
+			true_answers[10] = '0,2';  
+			true_answers[11] = '132';  
+			true_answers[12] = '26500';  
+			true_answers[13] = '3';  
+			true_answers[14] = '8';  
+			true_answers[15] = '28';   
+			true_answers[16] = '36';  
+			true_answers[17] = '27';  
+			true_answers[18] = '1';  
+			true_answers[19] = '23';  
 
 			// Счетчик баллов
 			let ball = 0;
 
-			for (let i = 1; i <= 18; i++) {
-			  	if(document.getElementById('answer_' + i).value == true_answers[i-1]) {
+			for (let i = 1; i <= 19; i++) {
+			  	if(document.getElementById('answer_' + i).value == true_answers[i]) {
 					ball += 1;
 					document.getElementById('answer_'+ i).style.backgroundColor = '#bbdfb3';
 				} 
