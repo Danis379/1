@@ -91,66 +91,10 @@
 	<!-- Задание 1 -->
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
-			<div class="col-9">
-				<p class="my-3"><h4>Задание 1 </h4>Установите соответствие между объемами помещения и номерами печей, для которыхданный объем является наименьшим для отопления помещений. Заполните таблицу, в бланк ответов перенеситепоследовательность трех цифр без пробелов, запятых и других дополнительных символов.</p>
-			</div>
-			<div class="col-3">
-				<table class="my-5">
-					<tr>
-						<td class="first_cells">Объём</td>
-						<td class="second_cells">8</td>
-						<td class="second_cells">9</td>
-						<td class="second_cells">10</td>
-					</tr>
-					<tr>
-						<td class="first_cells">Номер печи</td>
-						<td class="second_cells"></td>
-						<td class="second_cells"></td>
-						<td class="second_cells"></td>
-					</tr>
-				</table>				
-			</div>
-
-			<p>
-			  	<a data-bs-toggle="collapse" href="#collapseExample1">
-			    	развернуть/свернуть
-			  	</a>
-			</p>
-			<div class="collapse" id="collapseExample1">
-			  	<div class="card card-body">
-			    	<p>Хозяин дачного участка строит баню с парным отделением. Парное отделение имеет размеры: длина 3,5м, ширина 2,2м, высота 2м. Окон в парном отделении нет, для доступа внутрь планируется дверь шириной 60см, высота дверного проема 1,8м. Для прогрева парного отделения можно использовать электрическую или дровяную печь. В таблице представлены характеристики трех печей.</p>
-	  				<table class="my-5">
-						<tr>
-							<td class="second_cells	">Номер печи</td>
-							<td class="second_cells">Тип</td>
-							<td class="second_cells">Объем помещения</td>
-							<td class="second_cells">Масса</td>
-							<td class="second_cells">Стоимость</td>
-						</tr>
-						<tr>
-							<td class="second_cells	">1</td>
-							<td class="second_cells">Дровяная</td>
-							<td class="second_cells">8-12</td>
-							<td class="second_cells">40</td>
-							<td class="second_cells">18 000</td>
-						</tr>
-						<tr>
-							<td class="second_cells	">2</td>
-							<td class="second_cells">Дровяная</td>
-							<td class="second_cells">10-16</td>
-							<td class="second_cells">48</td>
-							<td class="second_cells">19 500</td>
-						</tr>
-						<tr>
-							<td class="second_cells	">3</td>
-							<td class="second_cells">Электрическая</td>
-							<td class="second_cells">9-15,5</td>
-							<td class="second_cells">15</td>
-							<td class="second_cells">15 000</td>
-						</tr>
-					</table>	
-  				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
-			  	</div>
+			<div class="col">
+				<p class="my-3"><h4>Задание 1 </h4>В кодировке UTF-32 каждый символ кодируется 32 битами. Саша написал текст (в нем нет лишних пробелов): «Мята, тыква, фасоль, артишок, патиссон, лагенария — овощи».<br>
+					Ученик вычеркнул из списка название одного из овощей. Заодно он вычеркнул ставшие лишними запятые и пробелы — два пробела не должны идти подряд.<br>
+					При этом размер нового предложения в данной кодировке оказался на 28 байтов меньше, чем размер исходного предложения. Напишите в ответе вычеркнутое название овоща.</p>
 			</div>
 		</div>
 		<div class="row mt-3">
@@ -160,8 +104,8 @@
 					<div class="collapse" id="solution1">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Из таблицы видно, что наименьший объем для первой печи 8, для второй 10, а для третьей 9.</p>
-					  			<p>Ответ: 132.</p>
+						    	<p><h4>Решение. </h4>Поскольку один символ кодируется четырьмя байтами, из текста удалили 7 символов. Заметим, что лишние запятая и пробел занимают восемь байтов. Значит, название овоща, которое удалили из списка, должно состоять из 5 букв, поскольку (28 − 8) : 4 = 5 символов. Из всего списка только одно название овоща состоит из 5 букв — тыква.</p>
+					  			<p>Ответ: тыква.</p>
 						  	</div>
 						</div>
 					</div>
@@ -174,52 +118,11 @@
 	<!-- Задание 2 -->
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
-			<div class="col-9">
-				<p class="my-3"><h4>Задание 2 </h4>Найдите объем парного отделения строящейся бани. Ответ дайте в кубических метрах.</p>
+			<div class="col">
+				<p class="my-3"><h4>Задание 2 </h4>От разведчика была получена следующая шифрованная радиограмма, переданная с использованием азбуки Морзе: ••−•••−•−−•−−••−−<br>
+					При передаче радиограммы было потеряно разбиение на буквы, но известно, что в радиограмме использовались только следующие буквы: Т− А•− У••− Ж•••− Х••••<br>
+					Определите текст радиограммы. В ответе укажите, сколько букв было в исходной радиограмме.</p>
 			</div>
-
-			<p>
-			  	<a data-bs-toggle="collapse" href="#collapseExample2">
-			    	развернуть/свернуть
-			  	</a>
-			</p>
-			<div class="collapse" id="collapseExample2">
-			  	<div class="card card-body">
-			    	<p>Хозяин дачного участка строит баню с парным отделением. Парное отделение имеет размеры: длина 3,5м, ширина 2,2м, высота 2м. Окон в парном отделении нет, для доступа внутрь планируется дверь шириной 60см, высота дверного проема 1,8м. Для прогрева парного отделения можно использовать электрическую или дровяную печь. В таблице представлены характеристики трех печей.</p>
-	  				<table class="my-5">
-						<tr>
-							<td class="second_cells	">Номер печи</td>
-							<td class="second_cells">Тип</td>
-							<td class="second_cells">Объем помещения</td>
-							<td class="second_cells">Масса</td>
-							<td class="second_cells">Стоимость</td>
-						</tr>
-						<tr>
-							<td class="second_cells	">1</td>
-							<td class="second_cells">Дровяная</td>
-							<td class="second_cells">8-12</td>
-							<td class="second_cells">40</td>
-							<td class="second_cells">18 000</td>
-						</tr>
-						<tr>
-							<td class="second_cells	">2</td>
-							<td class="second_cells">Дровяная</td>
-							<td class="second_cells">10-16</td>
-							<td class="second_cells">48</td>
-							<td class="second_cells">19 500</td>
-						</tr>
-						<tr>
-							<td class="second_cells	">3</td>
-							<td class="second_cells">Электрическая</td>
-							<td class="second_cells">9-15,5</td>
-							<td class="second_cells">15</td>
-							<td class="second_cells">15 000</td>
-						</tr>
-					</table>	
-	  				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
-			  	</div>
-			</div>
-
 		</div>
 		<div class="row mt-3">
 			<div class="col">
@@ -228,8 +131,8 @@
 					<div class="collapse" id="solution2">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Объем парного отделения может быть вычислен по формуле: V=a·b·c где a - ширина, b - длина, с - высота. Имеем: V= 3,5 · 2,2 · 2 = 15,4 m³</p>
-					  			<p>Ответ: 15,4.</p>
+						    	<p><h4>Решение. </h4>Сопоставляя символы их кодам, расшифруем сообщение: ••−•••−•−−•−−••−− = УЖАТАТУТ. Всего букв 8.</p>
+					  			<p>Ответ: 8.</p>
 						  	</div>
 						</div>
 					</div>
@@ -242,62 +145,19 @@
 	<!-- Задание 3 -->
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
-			<div class="col-9">
-				<p class="my-3"><h4>Задание 3 </h4>Во сколько рублей обойдется покупка дровяной печи, подходящей по объему парного отделения, с доставкой, если доставка печи до дачного участка будет стоить 1200 рублей?</p>
+			<div class="col">
+				<p class="my-3"><h4>Задание 3 </h4>Напишите наименьшее целое число x, для которого истинно высказывание: НЕ (X < 2) И НЕ (X > 10).</p>
 			</div>
-
-			<p>
-			  	<a data-bs-toggle="collapse" href="#collapseExample3">
-			    	развернуть/свернуть
-			  	</a>
-			</p>
-			<div class="collapse" id="collapseExample3">
-			  	<div class="card card-body">
-			    	<p>Хозяин дачного участка строит баню с парным отделением. Парное отделение имеет размеры: длина 3,5м, ширина 2,2м, высота 2м. Окон в парном отделении нет, для доступа внутрь планируется дверь шириной 60см, высота дверного проема 1,8м. Для прогрева парного отделения можно использовать электрическую или дровяную печь. В таблице представлены характеристики трех печей.</p>
-  				<table class="my-5">
-					<tr>
-						<td class="second_cells	">Номер печи</td>
-						<td class="second_cells">Тип</td>
-						<td class="second_cells">Объем помещения</td>
-						<td class="second_cells">Масса</td>
-						<td class="second_cells">Стоимость</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">1</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">8-12</td>
-						<td class="second_cells">40</td>
-						<td class="second_cells">18 000</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">2</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">10-16</td>
-						<td class="second_cells">48</td>
-						<td class="second_cells">19 500</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">3</td>
-						<td class="second_cells">Электрическая</td>
-						<td class="second_cells">9-15,5</td>
-						<td class="second_cells">15</td>
-						<td class="second_cells">15 000</td>
-					</tr>
-				</table>	
-  				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
-			  	</div>
-			</div>
-
 		</div>
 		<div class="row mt-3">
-			<div class="col">
+			<div class="col-9">
 				<form class="d-flex">
 					<button class="btn btn-outline-secondary me-2" type="button" data-bs-toggle="collapse" href="#solution3" aria-expanded="false" aria-controls="collapseWidthExample">Решение</button>
 					<div class="collapse" id="solution3">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Вычислим стоимость электрической печи: 15 000 + 800 + 6500 = 22 300 рублей.</p>
-					  			<p>Ответ: 22300.</p>
+						    	<p><h4>Решение. </h4>Запишем выражение в виде (X >= 2) И (X <= 10). Значит, наименьшее число, для которого высказывание будет истинным — 2.</p>
+					  			<p>Ответ: 2.</p>
 					  		</div>
 						</div>
 					</div>
@@ -311,9 +171,8 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 4 </h4>На дровяную печь, масса которой 48кг, сделали скидку 10%. Сколько рублей стала стоить печь?</p>
+				<p class="my-3"><h4>Задание 4 </h4>Иван-Царевич спешит выручить Марью-Царевну из плена Кощея. В таблице указана протяженность дорог между пунктами, через которые он может пройти. Укажите длину самого длинного участка кратчайшего пути от Ивана-Царевича до Марьи-Царевны (от точки И до точки М). Передвигаться можно только по дорогам, указанным в таблице:</p>
 			</div>
-
 			<p>
 			  	<a data-bs-toggle="collapse" href="#collapseExample4">
 			    	развернуть/свернуть
@@ -321,41 +180,76 @@
 			</p>
 			<div class="collapse" id="collapseExample4">
 			  	<div class="card card-body">
-			    	<p>Хозяин дачного участка строит баню с парным отделением. Парное отделение имеет размеры: длина 3,5м, ширина 2,2м, высота 2м. Окон в парном отделении нет, для доступа внутрь планируется дверь шириной 60см, высота дверного проема 1,8м. Для прогрева парного отделения можно использовать электрическую или дровяную печь. В таблице представлены характеристики трех печей.</p>
-  				<table class="my-5">
-					<tr>
-						<td class="second_cells	">Номер печи</td>
-						<td class="second_cells">Тип</td>
-						<td class="second_cells">Объем помещения</td>
-						<td class="second_cells">Масса</td>
-						<td class="second_cells">Стоимость</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">1</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">8-12</td>
-						<td class="second_cells">40</td>
-						<td class="second_cells">18 000</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">2</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">10-16</td>
-						<td class="second_cells">48</td>
-						<td class="second_cells">19 500</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">3</td>
-						<td class="second_cells">Электрическая</td>
-						<td class="second_cells">9-15,5</td>
-						<td class="second_cells">15</td>
-						<td class="second_cells">15 000</td>
-					</tr>
-				</table>	
-  				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
+			    	<div class="col-3">
+			    		<table>
+						<tr>
+							<td class="first_cells"></td>
+							<td class="second_cells">А</td>
+							<td class="second_cells">Б</td>
+							<td class="second_cells">В</td>
+							<td class="second_cells">Г</td>
+							<td class="second_cells">И</td>
+							<td class="second_cells">М</td>
+						</tr>
+						<tr>
+							<td class="first_cells">А</td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+							<td class="second_cells">1</td>
+							<td class="second_cells"></td>
+							<td class="second_cells">1</td>
+							<td class="second_cells"></td>
+						</tr>
+						<tr>
+							<td class="first_cells">Б</td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+							<td class="second_cells">2</td>
+							<td class="second_cells"></td>
+							<td class="second_cells">1</td>
+							<td class="second_cells">3</td>
+						</tr>
+						<tr>
+							<td class="first_cells">В</td>
+							<td class="second_cells">1</td>
+							<td class="second_cells">2</td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+						</tr>
+						<tr>
+							<td class="first_cells">Г</td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+							<td class="second_cells"></td>
+							<td class="second_cells">6</td>
+							<td class="second_cells">1</td>
+						</tr>
+						<tr>
+							<td class="first_cells">И</td>
+							<td class="second_cells">1</td>
+							<td class="second_cells">1</td>
+							<td class="second_cells"></td>
+							<td class="second_cells">6</td>
+							<td class="second_cells"></td>
+							<td class="second_cells">8</td>
+						</tr>
+						<tr>
+							<td class="first_cells">М</td>
+							<td class="second_cells"></td>
+							<td class="second_cells">3</td>
+							<td class="second_cells"></td>
+							<td class="second_cells">1</td>
+							<td class="second_cells">8</td>
+							<td class="second_cells"></td>
+						</tr>
+						</table>
+					</div>				
 			  	</div>
 			</div>
-
+			
 		</div>
 		<div class="row mt-3">
 			<div class="col">
@@ -364,8 +258,17 @@
 					<div class="collapse" id="solution4">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Вычислим сколько стала стоить печь массой 48 кг: 19500 − 19500 · 0,1 = 19500 − 1950  = 17 550.</p>
-					  			<p>Ответ: 17 550.</p>
+						    	<p><h4>Решение. </h4>Найдем все варианты маршрутов из И в М и выберем самый короткий.<br>
+						    		Из пункта И можно попасть в пункты А, Б, Г, М.<br>
+						    		Из пункта Г можно попасть в пункты И, М.<br>
+						    		Из пункта В можно попасть в пункты А, Б.<br>
+						    		Из пункта Б можно попасть в пункты В, И, М.<br>
+						    		И—А—В—Б—М: длина маршрута 7 км.<br>
+						    		И—Б—М: длина маршрута 4 км.<br>
+						    		И—Г—М: длина маршрута 7 км.<br>
+						    		И—М: длина маршрута 8 км.<br>
+						    		Самый короткий путь: И—Б—М. Длина маршрута 4 км. Самый длинный участок этого пути равен 3 км.</p>
+					  			<p>Ответ: 3.</p>
 						  	</div>
 						</div>
 					</div>
@@ -379,53 +282,12 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 5 </h4>Хозяин выбрал дровяную печь (рис.1). Чертеж передней панели печи показан на рисунке 2.</p>
-				<img src="2024-02-24_19-57-04.png" id="img_carousel" class="d-block w-50">
-				<p>Печь снабжена кожухом вокруг дверцы топки. Верхняя часть кожуха выполнена в виде арки, приваренной к передней стенке печки по дуге окружности с центром в середине нижней части кожуха (см.рис.2). Для установки печки хозяину понадобилось узнать радиус закругления арки R. Размеры кожуха в сантиметрах показаны на рисунке. Найдите радиус закругления арки в сантиметрах.</p>
+				<p class="my-3"><h4>Задание 5 </h4>У исполнителя Омега две команды, которым присвоены номера:<br>
+					1. прибавь 3;<br>
+					2. раздели на b<br>
+					(b — неизвестное натуральное число; b ≥ 2).<br>
+					Выполняя первую из них, Омега увеличивает число на экране на 3, а выполняя вторую, делит это число на b. Программа для исполнителя Омега — это последовательность номеров команд. Известно, что программа 11211 переводит число 30 в число 12. Определите значение b.</p>
 			</div>
-
-			<p>
-			  	<a data-bs-toggle="collapse" href="#collapseExample5">
-			    	развернуть/свернуть
-			  	</a>
-			</p>
-			<div class="collapse" id="collapseExample5">
-			  	<div class="card card-body">
-			    	<p>Хозяин дачного участка строит баню с парным отделением. Парное отделение имеет размеры: длина 3,5м, ширина 2,2м, высота 2м. Окон в парном отделении нет, для доступа внутрь планируется дверь шириной 60см, высота дверного проема 1,8м. Для прогрева парного отделения можно использовать электрическую или дровяную печь. В таблице представлены характеристики трех печей.</p>
-  				<table class="my-5">
-					<tr>
-						<td class="second_cells	">Номер печи</td>
-						<td class="second_cells">Тип</td>
-						<td class="second_cells">Объем помещения</td>
-						<td class="second_cells">Масса</td>
-						<td class="second_cells">Стоимость</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">1</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">8-12</td>
-						<td class="second_cells">40</td>
-						<td class="second_cells">18 000</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">2</td>
-						<td class="second_cells">Дровяная</td>
-						<td class="second_cells">10-16</td>
-						<td class="second_cells">48</td>
-						<td class="second_cells">19 500</td>
-					</tr>
-					<tr>
-						<td class="second_cells	">3</td>
-						<td class="second_cells">Электрическая</td>
-						<td class="second_cells">9-15,5</td>
-						<td class="second_cells">15</td>
-						<td class="second_cells">15 000</td>
-					</tr>
-				</table>	
-  				<p>Для установки дровяной печи дополнительных затрат не потребуется. Установка электрической печи потребует подведения специального кабеля, что обойдется в 6500 руб.</p>	
-			  	</div>
-			</div>
-
 		</div>
 		<div class="row mt-3">
 			<div class="col">
@@ -434,8 +296,8 @@
 					<div class="collapse" id="solution5">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Проведем радиус как показано на рисунке. Тогда AC = 30, так как точка С середина по условию. Тогда имеем треугольник ABC прямоугольный. По теореме Пифагора найдем радиус BC = √(40² + 30²) = 50.</p>
-					  			<p>Ответ: 50.</p>
+						    	<p><h4>Решение. </h4>аметим, что после выполнения первых двух команд мы получаем число 36. Далее, составим и решим уравнение: 36/b + 6 = 12 <=> 6b = 36 <=> b = 6.</p>
+					  			<p>Ответ: 6.</p>
 						  	</div>
 						</div>
 					</div>
@@ -449,9 +311,77 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 6 </h4>Найдите значение выражения 5/6 - 3/14 Представьте результат в виде несократимой обыкновенной дроби. В ответ запишите числитель этой дроби.</p>
+				<p class="my-3"><h4>Задание 6 </h4>Ниже приведена программа, записанная на пяти языках программирования.<br>
+					Было проведено 9 запусков программы, при которых в качестве значений переменных s и t вводились следующие пары чисел:<br>
+					(6, 4); (7, 8); (8, 5); (5, 6); (11, 10); (–5, 7); (–2, 2); (4, 5); (8, 6).<br>
+					Сколько было запусков, при которых программа напечатала «YES»?</p>
 			</div>
-			
+			<p>
+			  	<a data-bs-toggle="collapse" href="#collapseExample6">
+			    	развернуть/свернуть
+			  	</a>
+			</p>
+			<div class="collapse" id="collapseExample6">
+			  	<div class="card card-body">
+			    	<div class="col-8">
+			    		<table>
+							<tr>
+								<td>Бейсик</td>
+								<td>Python</td>
+								<td>Паскаль</td>
+								<td>Алгоритмический язык</td>
+								<td>С++</td>
+							</tr>
+							<tr>
+								<td>DIM s, t AS INTEGER<br>
+									INPUT s<br>
+									INPUT t<br>
+									IF s < 10 OR t < 10 THEN<br>
+									____PRINT ‘YES’<br>
+									ELSE<br>
+									____PRINT ‘NO’<br>
+									ENDIF</td>
+								<td>s = int(input())<br>
+									t = int(input())<br>
+									if s < 10 or t < 10:<br>
+									____print("YES")<br>
+									else:<br>
+									____print("NO")</td>
+								<td>var s, t: integer;<br>
+									begin<br>
+									____readln(s);<br>
+									____readln(t);<br>
+									____if (s < 10) or (t < 10)<br>
+									________then writeln('YES')<br>
+									________else writeln('NO')<br>
+									end.</td>
+								<td>алг<br>
+									нач<br>
+									цел s, t<br>
+									ввод s<br>
+									ввод t<br>
+									если s < 10 или t < 10<br>
+									____то вывод "YES"<br>
+									____иначе вывод "NO"<br>
+									все<br>
+									кон</td>
+								<td> #include [iostream]<br>
+									using namespace std;<br>
+									int main() {<br>
+									____int s, t;<br>
+									____cin >> s;<br>
+									____cin >> t;<br>
+									____if (s < 10 || t < 10)<br>
+									________cout << "YES";<br>
+									____else<br>
+									________cout << "NO";<br>
+									return 0;<br>
+									}</td>
+							</tr>
+						</table>
+					</div>				
+			  	</div>
+			</div>
 		</div>
 		<div class="row mt-3">
 			<div class="col">
@@ -460,8 +390,9 @@
 					<div class="collapse" id="solution6">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Вычислим: 5/6 - 3/14 = 35/42 - 9/42 = 26/42 = 13/21</p>
-					  			<p>Ответ: 13.</p>
+						    	<p><h4>Решение. </h4>Заметим, что программа напечатает «YES», если хотя бы одна из введенных переменных s и t будет меньше 10. Значит, было 8 запусков, при которых программа напечатала «YES». В качестве значений переменных s и t в этих случаях вводились следующие пары чисел:<br>
+						    	(6, 4); (7, 8); (8, 5); (5, 6); (–5, 7); (–2, 2); (4, 5); (8, 6).</p>
+					  			<p>Ответ: 8.</p>
 						  	</div>
 						</div>
 					</div>
@@ -475,9 +406,17 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 7 </h4>Одна из точек, отмеченных на координатной прямой, соответствует числу √77</p>
-				<p>Какая это точка? (В ответе укажите номер правильного варианта)</p>
-				<p>1)точка A</p> <p>2)точка B</p> <p>3)точка C</p> <p>4)точка D</p>
+				<p class="my-3"><h4>Задание 7 </h4>Файл winter.jpg был выложен в Интернете по адресу ftp://weather.info/winter.jpg. Потом на сайте создали подкаталог foto, а в нем — подкаталог 2019, и файл переместили в подкаталог 2019.<br>
+					Фрагменты нового и старого адресов файла закодированы цифрами от 1 до 9. Запишите последовательность этих цифр, кодирующую адрес файла в сети Интернет после перемещения.<br>
+					1) http:/<br>
+					2) foto<br>
+					3) winter<br>
+					4) 2019<br>
+					5) .jpg<br>
+					6) ftp:/<br>
+					7) /<br>
+					8) .info<br>
+					9) weather</p>
 			</div>
 			
 		</div>
@@ -488,8 +427,8 @@
 					<div class="collapse" id="solution7">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Возведем в квадрат числа √77, 7, 8, 9: (√77)²=77, 7²=49 8²=64, 9²=81. Число 77 лежит между числами 64 и 81 и находится ближе к числу 81, поэтому √77 соответствует точке D.</p>
-					  			<p>Ответ: 4.</p>
+						    	<p><h4>Решение. </h4>Напомним, как формируется адрес в сети Интернет. Сначала указывается протокол (как правило это «ftp» или «http»), потом «://», потом сервер, затем «/», далее каталог, после «/», название файла указывается в конце. Таким образом, новый адрес расположения файла будет следующим: ftp://weather.info/foto/2019/winter.jpg. Следовательно, ответ  — 67987274735.</p>
+					  			<p>Ответ: 67987274735.</p>
 						  	</div>
 						</div>
 					</div>
@@ -503,9 +442,38 @@
 	<div class="container mt-5">
 		<div class="row variants_cell mt-3">
 			<div class="col-9">
-				<p class="my-3"><h4>Задание 8 </h4>Найдите значение выражения 5√11 · 2√2 · √22</p>
+				<p class="my-3"><h4>Задание 8 </h4>В таблице приведены запросы и количество страниц, которые нашел поисковый сервер по этим запросам в некотором сегменте Интернета.<br>
+				Сколько страниц (в тысячах) будет найдено по запросу фрегат?</p>
 			</div>
-			
+			<p>
+			  	<a data-bs-toggle="collapse" href="#collapseExample4">
+			    	развернуть/свернуть
+			  	</a>
+			</p>
+			<div class="collapse" id="collapseExample4">
+			  	<div class="card card-body">
+			    	<div class="col-3">
+			    		<table>
+							<tr>
+								<td class="first_cells">Запрос</td>
+								<td class="second_cells">Количество страниц (тыс.)</td>
+							</tr>
+							<tr>
+								<td class="first_cells">фрегат & эсминец</td>
+								<td class="second_cells">500</td>
+							</tr>
+							<tr>
+								<td class="first_cells">фрегат | эсминец</td>
+								<td class="second_cells">4500</td>
+							</tr>
+							<tr>
+								<td class="first_cells">эсминец</td>
+								<td class="second_cells">2500</td>
+							</tr>
+						</table>
+					</div>				
+			  	</div>
+			</div>
 		</div>
 		<div class="row mt-3">
 			<div class="col">
@@ -514,9 +482,10 @@
 					<div class="collapse" id="solution8">
 					  	<div class="card card-body">
 					  		<div style="width: 70rem;">
-						    	<p><h4>Решение. </h4>Упростим выражение, разложив подкоренные выражения на множители и вынесем за знак корня полные квадраты чисел:<br>
-						    	5√11 · 2√2 · √22 = 5 · √11 · 2 · √2 · √(2·11) = 5 · 2 · √2 · √2 · √11 · √11 = 5 · 2 · 2 · 11 = 220.</p>
-					  			<p>Ответ: 220.</p>
+						    	<p><h4>Решение. </h4>По формуле включений и исключений имеем:<br>
+						    		m(фрегат | эсминец) = m(фрегат) + m(эсминец) − m(фрегат & эсминец) = m(фрегат) + 2500 − 500 = 4500.<br>
+						    		Откуда получаем, что m(фрегат) = 4500 − 2500 + 500 = 2500.</p>
+					  			<p>Ответ: 2500.</p>
 						  	</div>
 						</div>
 					</div>
