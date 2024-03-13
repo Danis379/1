@@ -34,128 +34,95 @@
 	      		<div class="offcanvas-header">
 		        	<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Сурок</h5>
 		        	<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-		      		</div>
-		      		<div class="offcanvas-body">
-		        		<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-		          			<li class="nav-item">
-		            			<a class="nav-link active" aria-current="page" href="index.html">Главная</a>
-		          			</li>
-		          			<li class="nav-item">
-		            			<a class="nav-link" href="#">Ссылка на нашего Telegram бота</a>
-		          			</li>
-		          			<li class="nav-item dropdown">
-		            			<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		              			Список предметов:
-		            			</a>
-			            		<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-			              			<li><a class="dropdown-item" href="list_math.html">Математика</a></li>
-			              			<li><a class="dropdown-item" href="list_inf.html">Информатика</a></li>
-			              			<li><a class="dropdown-item" href="list_rus.html">Русский язык</a></li>
-			              			<li>
-			                			<hr class="dropdown-divider">
-			              			</li>
-			              			<li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
-			            		</ul>
-		        		</ul>
-				        <form class="d-flex">
-				          <input class="form-control me-2" type="search" placeholder="Поиск по сайту" aria-label="Поиск">
-				          <button class="btn btn-outline-secondary" type="submit">Поиск</button>
-				        </form>
-	      			</div>
-	    		</div>
-	  		</div>
-		</nav>
+		      	</div>	
+		      	<div class="offcanvas-body">
+		        	<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+		          		<li class="nav-item">
+		            		<a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+		          		</li>
+		          		<li class="nav-item">
+		            		<a class="nav-link" href="#">Ссылка на нашего Telegram бота</a>
+		          		</li>
+		          		<li class="nav-item dropdown">
+		            		<a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            		Список предметов:
+		            		</a>
+			         		<ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+			           			<li><a class="dropdown-item" href="list_math.html">Математика</a></li>
+			           			<li><a class="dropdown-item" href="list_inf.html">Информатика</a></li>
+			           			<li><a class="dropdown-item" href="list_rus.html">Русский язык</a></li>
+			           			<li>
+			             			<hr class="dropdown-divider">
+			           			</li>
+			           			<li><a class="dropdown-item" href="#">Что-то еще здесь</a></li>
+			         		</ul>
+		        	</ul>
+				    <form class="d-flex">
+				       <input class="form-control me-2" type="search" placeholder="Поиск по сайту" aria-label="Поиск">
+				       <button class="btn btn-outline-secondary" type="submit">Поиск</button>
+				    </form>
+	      		</div>
+	    	</div>
+	  	</div>
+	</nav>
 
-	<!-- карусель -->
+	<!-- список вариантов -->
 	<div class="container" id="list_options">
 		<form class="d-flex">
 		   <input class="form-control me-2" type="search" placeholder="Поиск по сайту" aria-label="Поиск">
 		   <button class="btn btn-outline-secondary" type="submit">Поиск</button>
 		</form>
-		<div class="row">
-			<div class="col-lg-1"></div>
-			 	<div class="col-lg-4">
-				 	<div class="offer animated fadeInLeft">
-			            <h1 class="offer__title">
-			                Образовательная
-			            </h1>
-			        	<h3 class="offer__title">
-			        		платформа
-			        	</h3>    	 
-			        </div> 
-			        <p class="offer__text">
-			        	<li>Занимайся и с ноутбука, и с телефона</li>
-			        	<li>Получай всю необходимую для подготовки к экзаменам информацию в одном месте</li>
-			        	<li>Задавай любые вопросы своему кураторуИспользуй наш банк заданий (решай сотни разных вариантов ЕГЭ и ОГЭ по всем предметам)</li>	            	
-			        </p> 
-			        <ul class="icons d-flex">
-			            <li class="icons__item" id="icons__item">
-			                <a href="#">
-			                    <i class="fa fa-apple"></i>
-			                </a>
-			            </li>
-			            <li class="icons__item">
-			                <a href="#">
-			                    <i class="fa fa-android"></i>
-			                </a>
-			            </li>
-			            <li class="icons__item">
-			                <a href="#">
-			                    <i class="fa fa-windows"></i>
-			                </a>
-			            </li>
-			        </ul>
-			    </div>
-		        <div class="col-lg-5 ml-auto" id="carousel">
-					<div id="carouselExampleDark" class="carousel carousel-dark slide">
-					  	<div class="carousel-indicators">
-					    	<button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-						    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-						    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-					 	</div>
-					  	<div class="carousel-inner">
-					    	<div class="carousel-item active" data-bs-interval="10000">
-					    		<a href="list_math.html" class="card-link">
-					      			<img src="https://klike.net/uploads/posts/2022-09/1663850573_g-68.jpg" id="img_carousel" class="d-block w-100" alt="...">
-					      		</a>
-					      		<div class="carousel-caption d-none d-md-block">
-					        		<h5>Математика</h5>
-					      		</div>
-					    	</div>
-					    	<div class="carousel-item" data-bs-interval="2000">
-					      		<a href="list_inf.html" class="card-link">
-					      			<img src="https://top-fon.com/uploads/posts/2023-01/1674685083_top-fon-com-p-fon-dlya-prezentatsii-svetlii-informatika-38.jpg" class="d-block w-100" alt="...">
-					      		</a>
-					      		<div class="carousel-caption d-none d-md-block">
-						        	<h5>Информатика</h5>
-					      		</div>
-					    	</div>
-					    	<div class="carousel-item">
-					      		<a href="list_rus.html" class="card-link">
-					      			<img src="https://start.unikum.net/unikum/content/lpp/partille/bjorndammensskola/patricnordlander/3650041425_1820432d-37b0-4ea3-9da6-3bfffd35ae5f.jpg" id="img_carousel" class="d-block w-100" alt="...">
-					      		</a>
-					      		<div class="carousel-caption d-none d-md-block">
-							        <h5>Русский язык</h5>
-					      		</div>
-					    	</div>
-					  	</div>
-					  	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Предыдущий</span>
-					  	</button>
-					  	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-						    <span class="visually-hidden">Следующий</span>
-					  	</button>
-					</div>
-		        </div>				
-		    </div>
+		<div class="OurVariants-Grid mt-5">
+			<a class="Link VariantLink OurVariants-Link" href="variant_rus_1.html">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>1
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710389">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>2
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710390">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>3
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710391">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>4
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710392">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>5
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710393">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>6
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710394">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>7
+			</a><a class="Link VariantLink OurVariants-Link" href="/test?id=57710395">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>8
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710396">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>9
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710397">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>10
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710398">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>11
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710399">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>12
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710400">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>13
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710401">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>14
+			</a>
+			<a class="Link VariantLink OurVariants-Link" href="/test?id=57710402">
+				<span class="OurVariants-Word">Вариант&nbsp;</span>15
+			</a>
 		</div>
 	</div>
 
 	<!-- список предметов -->
-	<section id="interesting" class="interesting">
-		<div class="container">
+	<section id="interesting" class="interesting mt-5">
+		<div class="container" align="cen">
 			<div class="row" id="text_info_block">
 				<div class="col-lg-12">
 					<div class="title">
@@ -218,6 +185,59 @@
 					</a>
 				</div>
 			</div>
+
+			<!-- <div class="row">
+			    <div class="col-lg-4" id="info_block">
+					<a href="#" class="card-link">
+						<div class="card" style="width: 18rem;">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+										<img src="" class="img-thumbnail">
+									</div>
+									<div class="col"><h5 class="card-title">Предмет</h5>
+								    	<h6 class="card-subtitle mb-2 text-body-secondary">описание</h6>
+							    	</div>
+						    	</div>
+						  	</div>
+						</div>
+					</a>
+			   </div>
+
+			   <div class="col-lg-4" id="info_block">
+					<a href="#" class="card-link">
+						<div class="card" style="width: 18rem;">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+										<img src="" class="img-thumbnail">
+									</div>
+									<div class="col"><h5 class="card-title">Предмет</h5>
+								    	<h6 class="card-subtitle mb-2 text-body-secondary">описание</h6>
+							    	</div>
+						    	</div>
+						  	</div>
+						</div>
+					</a>
+			   </div>	   
+
+				<div class="col-lg-4" id="info_block">
+					<a href="#" class="card-link">
+						<div class="card" style="width: 18rem;">
+							<div class="card-body">
+								<div class="row">
+									<div class="col">
+										<img src="" class="img-thumbnail">
+									</div>
+									<div class="col"><h5 class="card-title">Предмет</h5>
+								    	<h6 class="card-subtitle mb-2 text-body-secondary">описание</h6>
+							    	</div>
+						    	</div>
+						  	</div>
+						</div>
+					</a>
+			   	</div>
+			</div>-->		
 		</div>
 	</section>
 
@@ -256,4 +276,4 @@
 	</footer>
 	
 </body>
-</html>
+</html>	
