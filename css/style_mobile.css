@@ -1,4 +1,4 @@
-@media (orientation: portrait) {
+@media screen and (max-width: 576px) {
 
 	body {
 		background-color: grey;
@@ -39,6 +39,10 @@
 	  	width: 100%;
 	}
 
+	#task {
+		margin-right: 1px;
+	}
+
 	/*#img_carousel {
 	  	border-width: 5px;
 		border-style: ;
@@ -69,6 +73,7 @@
 
 	#interesting {
 		align-content: center;
+		margin-top: 50px;
 	}
 
 	#info_block {
@@ -124,7 +129,7 @@
 	}
 
 	.offer{
-		margin-top: 117px;
+		margin-top: 50px;
 	}
 
 	.offer__title {
@@ -144,6 +149,9 @@
 	    width: 400px;
 	}
 
+	#input {
+		margin-top: 25px;
+	}
 	.icons__item {
 	    margin-right:30px;
 	    list-style-type: none;
@@ -185,20 +193,8 @@
 	    color: #898989
 	}
 
-	@media (max-width:992px) {
-		#carousel {
-			padding-top: 150px;
-		}
-	}
-
-	@media (max-width:576px) {
-		#carousel {
-			padding-top: 10px;
-		}
-	}
-
 	#carousel {
-		padding-top: 125px;
+		padding-top: 50px;
 	}
 
 	.card-link {
@@ -473,5 +469,10 @@
 	    margin: -.1rem 0 -.1rem .4rem!important;
 	    padding: 0 0 0 .05rem!important;
 	    border-radius: 50%!important
+	}
+
+	.task_table {
+		width: 100%;
+		font-size: 11px;
 	}
 } 

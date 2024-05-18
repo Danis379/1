@@ -33,12 +33,6 @@ img {
   	width: 100%;
 }
 
-/*#img_carousel {
-  	border-width: 5px;
-	border-style: ;
-	border-color: #898989;
-}*/
-
 .body {
 	font-family: 'Raleway',sans-serif
 }
@@ -177,18 +171,6 @@ img {
 
 .feature__text {
     color: #898989
-}
-
-@media (max-width:992px) {
-	#carousel {
-		padding-top: 150px;
-	}
-}
-
-@media (max-width:576px) {
-	#carousel {
-		padding-top: 10px;
-	}
 }
 
 #carousel {
